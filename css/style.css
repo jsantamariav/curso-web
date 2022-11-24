@@ -1,0 +1,22 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.menu {
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.contenido{
+    background-color: rgb(21, 143, 209);
+    margin: 20px;
+}
+
+.footer{
+    background-color: rgb(127, 207, 42);
+    margin: 10px;
+    text-align: center;
+}
