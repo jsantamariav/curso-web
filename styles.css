@@ -31,3 +31,8 @@ h2{
     border-radius: 7px;
     padding: 10px;
 }
+
+#mapas{
+    border: 5px solid red;
+    padding: 20px;
+}
