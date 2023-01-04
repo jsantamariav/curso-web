@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child {
+    color: #06509B;
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:nth-child(3) {
+    color: orangered;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: green
+}
+
+ul li:hover {
+    color: rgb(0, 128, 11)
+}
+
+#mi-enlance {
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlance:link {
+    font-size: 35px;
+    color: red;
+}
+
+#mi-enlance:visited {
+    font-size: 35px;
+    color: red;
+}
+
+#mi-enlance:hover {
+    font-size: 36px;
+    color: green;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 25px;
+    border: 3px solid rgb(9, 66, 151);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed red;
+}
+
+input[type="text"]::grammar-error{
+    color: red;
+    text-decoration: underline red;
+}
+
+.clase1{
+    color: red;
+}
+
+.clase2{
+    color: blue !important;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+select:focus {
+    background-color: rgb(104, 104, 14);
+}
