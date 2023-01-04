@@ -50,8 +50,19 @@
     border-radius: 50px 10px 4px 61px;
 }
 
+.caja:hover{
+    box-shadow: 5px 5px 10px rgb(103,119,143) inset !important;
+    color: blueviolet !important;
+}
+
+
 .sombra-interior {
     box-shadow: 5px 5px 10px rgb(103,119,143) inset !important;
+}
+
+.sombra-interior:hover{
+    box-shadow: 5px 5px 10px rgb(103,119,143) !important;
+    border-radius: 50px 10px 4px 61px !important;
 }
 
 
@@ -89,7 +100,7 @@ objetos de mi html y llevarlo ordenado
     clear: both;
 }
 
-#letaral {
+#lateral {
     float: left;
     width: 30%;
     border: 1px solid red;
@@ -97,6 +108,12 @@ objetos de mi html y llevarlo ordenado
     max-height: 600px;
     text-align: justify;
     overflow-y: scroll;
+}
+
+#lateral:hover{
+    border: 5px solid green;
+    border-radius: 5px;
+    color: blue;
 }
 
 #footer {
