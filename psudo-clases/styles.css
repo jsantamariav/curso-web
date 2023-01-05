@@ -49,7 +49,7 @@ ul li:hover {
     color: green;
 }
 
-input[type="text"]{
+input[type="text"] {
     width: 200px;
     height: 25px;
     border: 3px solid rgb(9, 66, 151);
@@ -58,20 +58,20 @@ input[type="text"]{
     padding: 5px;
 }
 
-input[type="text"]:focus{
+input[type="text"]:focus {
     border: 4px dashed red;
 }
 
-input[type="text"]::grammar-error{
+input[type="text"]::grammar-error {
     color: red;
     text-decoration: underline red;
 }
 
-.clase1{
+.clase1 {
     color: red;
 }
 
-.clase2{
+.clase2 {
     color: blue !important;
 }
 
