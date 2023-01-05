@@ -14,7 +14,7 @@
     transition: all 500ms, background-color 3s;
 }
 
-#boton:hover{
+#boton:hover {
     background-color: #043607;
     border-radius: 10px;
 }
@@ -37,22 +37,26 @@
 }
 
 @keyframes desplazamiento {
-    0%{
+    0% {
         margin-left: 0px;
         transform: rotate(0deg);
     }
-    50%{
+
+    50% {
         margin-left: 500px;
         transform: rotate(360deg);
         border-radius: 999px;
     }
-    75%{
+
+    75% {
         background: red;
     }
-    77%{
+
+    77% {
         border: 10px dashed blue;
     }
-    100%{
+
+    100% {
         margin-left: 0px;
         transform: rotate(0deg);
     }
