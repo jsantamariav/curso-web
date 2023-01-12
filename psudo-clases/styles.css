@@ -87,3 +87,14 @@ input:focus {
 select:focus {
     background-color: rgb(104, 104, 14);
 }
+
+#colores {
+    border: #06509B solid;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, rgb(81, 109, 202), rgb(19, 141, 90));
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(166, 178, 216), rgb(19, 141, 90));
+}
