@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Maquetacion CSS Responsiva</title>
+    <title>Maquetacion de CSS Responsive</title>
     <link rel="shortcut icon" href="./img/supertux.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsivo.css">
 </head>
 
 <body>
-
-    <!-- INICIO DE CABECERA -->
+    <!-- INICIO CABECERA -->
     <header id="header">
-        <div id="wrap">
-            <span class="gear">S</span>
-            <h3>blog</h3>
-            <div class="log"></div>
+        <div class="wrap">
+            <div id="logo">
+                <span class='gear'>S</span>
+                <h3>BLOG</h3>
+            </div>
 
+            <div class="log">
+
+            </div>
             <nav id="menu">
                 <ul>
-                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">Inicio</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Formacion</a></li>
                     <li><a href="#">Contacto</a></li>
@@ -31,243 +34,249 @@
         </div>
     </header>
     <!-- FIN DE CABECERA -->
-
-    <!-- SECION DE CONTENIDO -->
     <section class="wrap wrap-content">
-        <!-- inicio del banner -->
-        <div id="banner">
-            <h1>Experto en diseno web Su nombre</h1>
-        </div>
-        <!-- FIN DEL BANNER -->
-
-        <!-- INICIO DE CARDS -->
-        <div class="cards">
-            <div class="card">
-                <p class="icon">H</p>
-                <h2 class="category">Desarrolo web</h2>
-                <p class="description">
-                    Aprende los principales conceptos de desarrollo web, como HTML, CSS, JavaScript, etc.
-                </p>
+        <section id="info">
+            <!-- INICIO BANNER -->
+            <div id="banner">
+                <h1>CURSOS DE DESARROLLO CON JUAN CARLOS SANTAMARIA</h1>
             </div>
+            <!-- FIN INICIO BANNER -->
 
-            <div class="card">
-                <p class="icon">_</p>
-                <h2 class="category">Sistemas Operativos</h2>
-                <p class="description">
-                    Aprende los principales conceptos de desarrollo web, como HTML, CSS, JavaScript, etc.
-                </p>
-            </div>
-
-            <div class="card">
-                <p class="icon">S</p>
-                <h2 class="category">Hardware</h2>
-                <p class="description">
-                    Aprende los principales conceptos de desarrollo web, como HTML, CSS, JavaScript, etc.
-                </p>
-            </div>
-
-            <div class="card">
-                <p class="icon">u</p>
-                <h2 class="category">Redes e Internet</h2>
-                <p class="description">
-                    Aprende los principales conceptos de desarrollo web, como HTML, CSS, JavaScript, etc.
-                </p>
-            </div>
-
-            <div class="card">
-                <p class="icon">a</p>
-                <h2 class="category">Bases de datos</h2>
-                <p class="description">
-                    Aprende los principales conceptos de desarrollo web, como HTML, CSS, JavaScript, etc.
-                </p>
-            </div>
-        </div>
-        <!-- FIN DE CARDS -->
-
-        <div class="clearfix"></div>
-
-        <!-- INICIO BARRA LATERAL -->
-        <aside id="lateral">
-
-            <h3>Buscar</h3>
-            <div id="search">
-                <form>
-                    <input class="txtSearch" type="text">
-                    <input class="icon" type="button" value="L">
-                </form>
-            </div>
-
-            <h3>Login</h3>
-            <div id="login" class="aside-box">
-                <form>
-                    <label id="user" class="icon">U</label>
-                    <input type="mail" placeholder="email" />
-
-                    <label id="password" class="icon">w</label>
-                    <input type="password" placeholder="password">
-
-                    <input type="submit" value="Entrar" />
-                    <input type="reset" value="Limpiar" />
-
-                    <a href="#">Registrarse</a>
-                    <a href="#">Recuperar contraseña</a>
-                </form>
-            </div>
-
-            <h3>Redes sociales</h3>
-            <div id="social" class="aside-box">
-                <div id="twiter">
-                    <a href="#" class="icon">t</a>
-                    <p class="overlay">Seguinos en Twitter</p>
+            <!-- INICIO DE CARDS -->
+            <div class="cards">
+                <div class="card">
+                    <p class="icon">H</p>
+                    <h2 class="category">Desarrollo Web</h2>
+                    <p class="description">
+                        Aprende los principales conceptos de desarrollo web, como HTML, CSS, JavaScript, etc.
+                    </p>
                 </div>
 
-                <div id="facebook">
-                    <a href="#" class="icon">f</a>
-                    <p class="overlay">Seguinos en Facebook</p>
+                <div class="card">
+                    <p class="icon">_</p>
+                    <h2 class="category">Sistemas Iperativos</h2>
+                    <p class="description">
+                        Aprende los principales conceptos de sistemas operativos, como Linux, Windows, etc.
+                    </p>
                 </div>
 
-                <div id="Youtube">
-                    <a href="#" class="icon">y</a>
-                    <p class="overlay">Veanos en Youtube</p>
+                <div class="card">
+                    <p class="icon">S</p>
+                    <h2 class="category">Hardware</h2>
+                    <p class="description">
+                        Conoce los entrecijos de hardware, como CPU, GPU, etc.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">u</p>
+                    <h2 class="category">Redes e Internet </h2>
+                    <p class="description">
+                        Aprende los conceptos de redes y internet, como conexiones, protocolos, etc.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">a</p>
+                    <h2 class="category">Bases de datos</h2>
+                    <p class="description">
+                        Aprende los conceptos de bases de datos, como SQL, NoSQL, etc.
+                    </p>
                 </div>
             </div>
+            <!-- FIN DE CARDS -->
 
-            <h3>Patrocinadores</h3>
-            <div id="sponsors" class="aside-box"></div>
-        </aside>
-        <!-- FIN BARRA LATERAL -->
-
-
-        <!-- INICIO DE LOS ARTICULOS -->
-        <section id="articles">
-            <h2>Ultimos articulos</h2>
-
+            <!-- INICIO DE BARRA LATERAL -->
             <div class="clearfix"></div>
+            <aside id="lateral">
+                <h3>Buscar</h3>
 
-            <article>
-                <div class="data">
-                    <p class="date"></p>
-                    <span class="day">12</span>
-                    <span class="month">Enero</span>
-                    <span class="year">2023</span>
-                </div>
-                <p class="author">
-                    <span class="name">Juan Carlos</span>
-                    <span class="job">Desarrollador Web</span>
-                </p>
-
-                <h4><a href="#">Resolucion y Tipo de dispositivo</a></h4>
-                <p id="deviceType"></p>
-            </article>
-
-            <article>
-                <div class="data">
-                    <p class="date">
-                        <span class="day">12</span>
-                        <span class="month">Enero</span>
-                        <span class="year">2020</span>
-                    </p>
-                    <p class="author">
-                        <span class="name">Juan Carlos</span>
-                        <span class="job">Desarrollador Web</span>
-                    </p>
+                <div id="search">
+                    <form>
+                        <input id="txtSearch" type="text" />
+                        <input type="button" class="icon" value="L" />
+                    </form>
                 </div>
 
-                <h4><a href="#">Titulo del articulo</a></h4>
-                <p id="bacon-ipsum1"></p>
-            </article>
 
-            <article>
-                <div class="data">
-                    <p class="date">
-                        <span class="day">12</span>
-                        <span class="month">Enero</span>
-                        <span class="year">2020</span>
-                    </p>
-                    <p class="author">
-                        <span class="name">Juan Carlos</span>
-                        <span class="job">Desarrollador Web</span>
-                    </p>
+                <h3>Login</h3>
+                <div id="login" class="aside-box">
+                    <form>
+                        <label id="user" class="icon">U</label>
+                        <input type="mail" placeholder="email" />
+
+                        <label id="password" class="icon">w</label>
+                        <input type="password" placeholder="password">
+
+                        <input type="submit" value="Entrar" />
+                        <input type="reset" value="Limpiar" />
+
+                        <a href="#">Registrarse</a>
+                        <a href="#">Recuperar contraseña</a>
+                    </form>
                 </div>
 
-                <h4><a href="#">Titulo del articulo</a></h4>
-                <p id="bacon-ipsum2"></p>
-            </article>
-
-            <article>
-                <div class="data">
-                    <p class="date">
-                        <span class="day">12</span>
-                        <span class="month">Enero</span>
-                        <span class="year">2020</span>
-                    </p>
-                    <p class="author">
-                        <span class="name">Juan Carlos</span>
-                        <span class="job">Desarrollador Web</span>
-                    </p>
+                <h3>Redes Sociales</h3>
+                <div id="social" class="aside-box">
+                    <div class="twiter">
+                        <a href="#" class="icon">t</a>
+                        <p class="overlay">Seguinos en Twitter</p>
+                    </div>
+                    <div class="facebook">
+                        <a href="#" class="icon">f</a>
+                        <p class="overlay">Seguinos en Facebook</p>
+                    </div>
+                    <div class="Youtube">
+                        <a href="#" class="icon">y</a>
+                        <p class="overlay">Seguinos en Youtube</p>
+                    </div>
                 </div>
 
-                <h4><a href="#">Titulo del articulo</a></h4>
-                <p id="bacon-ipsum3"></p>
-            </article>
-            <article id="blog">
-                <a href="#">Ir al Blog</a>
-            </article>
+                <h3>Patrocinadores</h3>
+                <div id="sponsors" class="aside-box">
+
+                </div>
+            </aside>
+            <!-- FIN DE BARRA LATERAL -->
+
+            <!-- INICIO DE ARTICLES -->
+            <section id="articles">
+                <h2>Ultimos articles</h2>
+                <div class="clearfix"></div>
+                <article>
+                    <div class="data">
+                        <p class="date">
+                            <span class="day">12</span>
+                            <span class="month">Enero</span>
+                            <span class="year">2020</span>
+                        </p>
+                        <p class="author">
+                            <span class="name">Juan Carlos</span>
+                            <span class="job">Desarrollador Web</span>
+                        </p>
+                    </div>
+
+                    <h4><a href="#">Resolucion y Tipo de dispositivo</a></h4>
+                    <p id="deviceType"></p>
+                </article>
+
+                <article>
+                    <div class="data">
+                        <p class="date">
+                            <span class="day">12</span>
+                            <span class="month">Enero</span>
+                            <span class="year">2020</span>
+                        </p>
+                        <p class="author">
+                            <span class="name">Juan Carlos</span>
+                            <span class="job">Desarrollador Web</span>
+                        </p>
+                    </div>
+
+                    <h4><a href="#">Titulo del articulo</a></h4>
+                    <p id="bacon-ipsum1"></p>
+                </article>
+
+                <article>
+                    <div class="data">
+                        <p class="date">
+                            <span class="day">12</span>
+                            <span class="month">Enero</span>
+                            <span class="year">2020</span>
+                        </p>
+                        <p class="author">
+                            <span class="name">Juan Carlos</span>
+                            <span class="job">Desarrollador Web</span>
+                        </p>
+                    </div>
+
+                    <h4><a href="#">Titulo del articulo</a></h4>
+                    <p id="bacon-ipsum2"></p>
+                </article>
+
+                <article>
+                    <div class="data">
+                        <p class="date">
+                            <span class="day">12</span>
+                            <span class="month">Enero</span>
+                            <span class="year">2020</span>
+                        </p>
+                        <p class="author">
+                            <span class="name">Juan Carlos</span>
+                            <span class="job">Desarrollador Web</span>
+                        </p>
+                    </div>
+
+                    <h4><a href="#">Titulo del articulo</a></h4>
+                    <p id="bacon-ipsum3"></p>
+                </article>
+                <article id="blog">
+                    <a href="#">Ir al Blog</a>
+                </article>
+            </section>
+            <!-- FIN DE ARTICLES -->
         </section>
-        <!-- FIN DE LOS ARTICULOS -->
     </section>
-    <!-- FIN SECION DE CONTENIDO -->
 
-    <div class="clearfix"></div>
+
 
     <!-- PIE DE PAGINA -->
+    <div class="clearfix"></div>
     <footer id="footer">
-        <div id="munu-footer">
-            <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Formacion</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+        <div class="wrap">
+
+            <div id="menu-footer">
+                <h5>Menu</h5>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Formacion</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d694.6743282972106!2d-84.09646154373822!3d9.961271424802801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e4b5e5b16a23%3A0x397b112dc5b1c4c4!2zOcKwNTcnMzguMyJOIDg0wrAwNSc0Ny41Ilc!5e0!3m2!1sen!2scr!4v1658769744693!5m2!1sen!2scr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p>
+                    <span>Direccion:</span>
+                    <span>Calle falsa 123</span>
+                    <span>Ciudad:</span>
+                    <span>Ciudad</span>
+                    <span>Codigo Postal:</span>
+                    <span>12345</span>
+                </p>
+            </div>
+
+            <div class="info">
+                <h5>Desarrollado con</h5>
+                <p><img src="./img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png"
+                        alt="creado con html y css"></p>
+
+                <h5>Optimizado para</h5>
+                <p id="browsers">
+                    <img src="./img/chrome.png" alt="chrome" title="chrome">
+                    <img src="./img/firefox-icon.png" alt="firefox" title="firefox">
+                    <img src="./img/Opera_256x256.png" alt="opera" title="opera">
+                    <img src="./img/safari.png" alt="safari" title="safari">
+                    <img src="./img/android.png" alt="android" title="android">
+                    <img src="./img/ios.png" alt="ios" title="ios">
+                </p>
+
+                <h5>Autor</h5>
+                <p>&copy; Jsantamaria <a href="#">devteamcr.com</a></p>
+            </div>
+
+
+
         </div>
-
-        <div class="location">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d71278.30271394363!2d-84.75461453897903!3d10.455157488486288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa01b1467958757%3A0x3ba5790b44d16b16!2sMonte%20de%20los%20Olivos%2C%20Provincia%20de%20Guanacaste!5e1!3m2!1sen!2scr!4v1674093595640!5m2!1sen!2scr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <p>
-                <span>Direccion:</span>
-                <span>Calle falsa 123</span>
-                <span>Ciudad:</span>
-                <span>Ciudad</span>
-                <span>Codigo Postal:</span>
-                <span>12345</span>
-            </p>
-        </div>
-
-        <div class="info">
-            <h5>Desarrollador web</h5>
-            <p><img src="./img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png"
-                    alt="creado con html css"></p>
-
-            <h5>Optimizado para</h5>
-            <p id="browsers">
-                <img src="./img/chrome.png" alt="chrome" title="chrome">
-                <img src="./img/firefox-icon.png" alt="firefox" title="firefox">
-                <img src="./img/Opera_256x256.png" alt="opera" title="opera">
-                <img src="./img/safari.png" alt="safari" title="safari">
-                <img src="./img/android.png" alt="android" title="android">
-                <img src="./img/ios.png" alt="ios" title="ios">
-            </p>
-
-            <h5>Autor</h5>
-            <p>&copy; yo.com</p>
-        </div>
-
     </footer>
     <!-- FIN PIE DE PAGINA -->
+
+    <script type="module" src="./scripts/main.js"></script>
 
 </body>
 
