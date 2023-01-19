@@ -1,0 +1,42 @@
+/******************************************************************* 
+    CREADO POR: JUAN CARLOS SANTAMARIA
+    FECHA:      18-01-2023
+    DETALLE:    ACA VAN MIS ESTILOS RESPONSIVOS
+                DESDE LA ANCHURA 0PX HASTA LA ANCHURA 888 PX
+                PARA QUE SE EJECUTEN LOS ESTILOS
+*******************************************************************/
+@media(max-width: 888px) {
+
+    #articles {
+        width: 40%;
+        background: rgb(88, 32, 32)
+    }
+}
+
+@media (max-width:632px) {
+    #container {
+        overflow: hidden;
+    }
+
+    #articles {
+        width: 100%;
+    }
+
+    aside {
+        float: none;
+        min-height: auto;
+        width: 91%;
+        padding: 19px;
+    }
+
+    #articles article {
+        width: 90%;
+        background-color: rgb(61, 114, 228);
+    }
+}
+
+@media (max-width: 554px) {
+    body{
+        background: lightsalmon;
+    }
+}
